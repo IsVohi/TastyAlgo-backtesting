@@ -33,6 +33,7 @@ streamlit run app.py
 
 ```
 TastyAlgo/
+├── .streamlit/config.toml     # for configuring defualt streamlit theme
 ├── app.py                     # main streamlit dashboard
 ├── data_fetcher.py            # yahoo finance data handler
 ├── regime_detection.py        # market regime classification  
