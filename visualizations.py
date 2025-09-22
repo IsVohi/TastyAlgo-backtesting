@@ -316,7 +316,10 @@ class ChartGen:
           yaxis_title='Cumulative Return (%)',
           template=self.chartTemplate,
           height=400,
-          hovermode='x unified'
+          hovermode='x unified',
+          plot_bgcolor='#222',
+          paper_bgcolor='#181818',
+          font=dict(color='#f4f4f4')
       )
       
       return fig
